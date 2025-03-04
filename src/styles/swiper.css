@@ -1,0 +1,23 @@
+.product-pagination {
+  /* position: absolute; */
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.product-pagination .swiper-pagination-bullet-active {
+  background-color: red;
+  opacity: 1;
+  transform: scale(1);
+}
