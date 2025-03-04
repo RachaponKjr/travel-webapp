@@ -14,7 +14,9 @@ function Navbar() {
             <Bell />
             <BottomSheet open={open} setOpen={setOpen}>
                 <BottomSheetTrigger>
-                    <CircleX color='#a1a1a1' onClick={() => setOpen(false)} className='place-self-end' />
+                    <div className='flex justify-end items-center'>
+                        <CircleX color='#a1a1a1' onClick={() => setOpen(false)} />
+                    </div>
                 </BottomSheetTrigger>
                 <div className='my-4'>
                     {/* Login Btn */}
