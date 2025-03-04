@@ -26,7 +26,7 @@ const BottomSheet: React.FC<BottomSheetProps> = ({ children, open, setOpen }) =>
                 />
             )}
             <motion.div
-                className="fixed bottom-0 left-0 w-full bg-white rounded-t-2xl shadow-lg p-4 max-h-[90vh] overflow-y-auto"
+                className="fixed bottom-0 left-0 w-full bg-white rounded-t-2xl shadow-lg p-4 max-h-[90svh] overflow-y-auto"
                 initial={{ y: "100%" }}
                 animate={{ y: open ? "0%" : "100%" }}
                 transition={{ stiffness: 100, damping: 10 }}
