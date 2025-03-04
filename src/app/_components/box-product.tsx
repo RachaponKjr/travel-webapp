@@ -25,8 +25,8 @@ function BoxProduct() {
                     <div className='w-full h-[1px] bg-gray-200 my-4'></div>
                     <div className='space-y-2'>
                         <h6 className='text-xl font-normal'>Issara Liveaboard</h6>
-                        <p className='text-sm text-gray-500'>If you have any questions or need assistance, please let us know "Inquire about information" “Book a diving trip"
-                            "Subscribe to promotion alerts"</p>
+                        <p className='text-sm text-gray-500'>If you have any questions or need assistance, please let us know &quot;Inquire about information&quot; &quot;Book a diving trip&quot;
+                            &quot;Subscribe to promotion alerts&quot;</p>
                     </div>
                 </div>
             </Link>

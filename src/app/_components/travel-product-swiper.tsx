@@ -2,7 +2,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import Image from 'next/image';
 import BoxProduct from './box-product';
 import { Pagination } from 'swiper/modules';
 
@@ -13,10 +12,10 @@ import '@/styles/swiper.css';
 
 interface TravelProductProps {
     headerTitle: string
-    products?: any[]
 }
 
-function TravelProductSwipers({ headerTitle, products }: TravelProductProps) {
+function TravelProductSwipers({ headerTitle }: TravelProductProps) {
+
     return (
         <div className='space-y-4 my-4'>
             <h3 className='text-xl font-normal px-4'>{headerTitle}</h3>
